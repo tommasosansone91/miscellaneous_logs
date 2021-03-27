@@ -1,0 +1,40 @@
+
+Call: 11/17/2019 11:15:2 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -preInstallCheck_W10
+
+Call: 11/17/2019 11:15:2 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -qWaveCheck
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 11/17/2019 11:15:3 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -install_W10
+>>> SpacedeskSetupCustomAction::_tWinMain C:\Applicazioni Tommaso\spacedesk\
+>>> Windows10SetupInstall
+IndirectDisplayDriverInstall C:\Applicazioni Tommaso\spacedesk\spacedeskdisplay.inf
+FunctionDriverRootEnumerated::Install spacedesk Graphics Adapter
+SetupApiDeviceInfoSet::CurrentInstanceDeviceNodeCreate Root\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_DISPLAY_0001
+KtmInputMouseDriverInstall C:\Applicazioni Tommaso\spacedesk\spacedeskKtmInputmouse.inf
+FunctionDriverRootEnumerated::Install spacedesk Mouse
+SetupApiDeviceInfoSet::CurrentInstanceDeviceNodeCreate Root\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_MOUSE_0001
+KtmInputKeyboardDriverInstall C:\Applicazioni Tommaso\spacedesk\spacedeskKtmInputkeyboard.inf
+FunctionDriverRootEnumerated::Install spacedesk Keyboard
+SetupApiDeviceInfoSet::CurrentInstanceDeviceNodeCreate Root\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_KEYBD_0001
+<<< Windows10SetupInstall
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 11/17/2019 11:15:14 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -install_W10_ServiceStart
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 11/17/2019 11:15:14 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -openFirewall
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 11/17/2019 11:15:14 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -spacedeskProgramFilesDelete
+Utilities::DirectoryFileDelete FindFirstFile failed! INVALID_HANDLE_VALUE = hFind
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 11/17/2019 11:15:15 Build: Nov 12 2019 10:00:35 v0923
+>>> SpacedeskSetupCustomAction::_tWinMain -otherFirewallCheck
+<<< SpacedeskSetupCustomAction::_tWinMain
